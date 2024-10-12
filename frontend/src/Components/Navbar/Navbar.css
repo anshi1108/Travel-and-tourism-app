@@ -1,0 +1,160 @@
+/* Navbar container */
+.navbar {
+  display: flex;
+  /* Use flexbox for layout */
+  justify-content: space-between;
+  /* Space between left and right sections */
+  padding: 16px;
+  /* Padding for overall navbar */
+  box-shadow: 0 1px 3px -2px black;
+  /* Shadow effect for navbar */
+  align-items: center;
+  /* Center items vertically */
+}
+
+/* Logo and title section */
+.nav-logo {
+  display: flex;
+  /* Enable flexbox for horizontal layout */
+  align-items: center;
+  /* Vertically center items */
+  gap: 10px;
+  /* Space between logo and title */
+}
+
+/* Logo image size */
+.navbar-logo {
+  width: 50px;
+  /* Adjust logo width */
+  height: 50px;
+  /* Adjust logo height */
+}
+
+/* Title style */
+.navbar-title {
+  color: rgb(2, 1, 1);
+  /* Color for title */
+  font-size: 40px;
+  /* Font size for title */
+  font-weight: 700;
+  /* Bold font */
+  margin-left: 2rem;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+/* Navigation menu */
+.nav-menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 50px;
+  color: #626262;
+  font-size: 20px;
+  font-weight: 500;
+  padding-left: 150px;
+}
+
+
+/* Navigation icons */
+.nav-icon {
+  width: 45px;
+  /* Uniform size for icons */
+  height: 45px;
+  /* Maintain aspect ratio */
+}
+
+/* Right section: Search bar */
+.nav-login-cart {
+  display: flex;
+  /* Use flexbox for layout */
+  align-items: center;
+  /* Vertically center items */
+  gap: 45px;
+  /* Space between elements */
+}
+
+.navbar-search {
+  display: flex;
+  /* Use flexbox for layout */
+  align-items: center;
+  /* Vertically center items */
+}
+
+/* Search input styling */
+.search-input {
+  padding: 8px 12px;
+  /* Padding for search input */
+  border: 1px solid #ccc;
+  /* Border for search input */
+  border-radius: 4px;
+  /* Rounded corners */
+  font-size: 16px;
+  /* Font size for input text */
+}
+
+/* Search button styling */
+.search-button {
+  padding: 8px 15px;
+  /* Padding for button */
+  background-color: #4CAF50;
+  /* Background color for button */
+  color: white;
+  /* Text color for button */
+  border: none;
+  /* No border */
+  border-radius: 4px;
+  /* Rounded corners */
+  cursor: pointer;
+  margin-inline: 2rem;
+  /* Pointer cursor on hover */
+}
+
+/* Hover effect for search button */
+.search-button:hover {
+  background-color: #45a049;
+  /* Darker green on hover */
+}
+
+/* Responsive adjustments */
+@media (max-width: 1280px) {
+  .navbar {
+    padding: 12px 50px;
+    /* Adjust padding for smaller screens */
+  }
+
+  .navbar-logo {
+    width: 40px;
+    /* Adjust logo width */
+    height: 40px;
+    /* Adjust logo height */
+  }
+
+  .navbar-title {
+    font-size: 35px;
+    /* Adjust font size for title */
+  }
+
+  .nav-menu {
+    gap: 30px;
+    /* Space between nav items */
+    font-size: 16px;
+    /* Font size for nav items */
+  }
+}
+
+/* Hover effect for navigation icons */
+.nav-icon:hover {
+  transform: scale(1.4);
+  /* Slightly increase size */
+  transition: transform 0.3s ease;
+  /* Smooth transition */
+}
+
+/* Optional: Hover effect for the logo */
+.navbar-logo:hover {
+  transform: scale(1.4);
+  /* Slightly increase size */
+  transition: transform 0.3s ease;
+  /* Smooth transition */
+}
