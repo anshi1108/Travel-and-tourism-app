@@ -17,27 +17,74 @@ const Navbar = () => {
       <div className="nav-menu">
         <li className="nav-link">
           <Link to="/explore">
-            <img src="https://cdn-icons-png.flaticon.com/128/2439/2439655.png" alt="Explore" className="nav-icon" />
+            <div className="nav-icon-wrapper">
+              <img
+                src="https://cdn-icons-png.flaticon.com/128/2439/2439655.png"
+                alt="Explore"
+                className="nav-icon"
+              />
+              <span className="tooltip-text">Explore</span>
+            </div>
           </Link>
         </li>
         <li className="nav-link">
           <Link to="/home/Forum">
-            <img src="https://img.icons8.com/?size=100&id=11881&format=png&color=000000" alt="Forum" className="nav-icon" />
+            <div className="nav-icon-wrapper">
+              <img
+                src="https://img.icons8.com/?size=100&id=11881&format=png&color=000000"
+                alt="Forum"
+                className="nav-icon"
+              />
+              <span className="tooltip-text">Forum</span>
+            </div>
           </Link>
         </li>
         <li className="nav-link">
           <Link to="/home/SocialMedia">
-            <img src="https://img.icons8.com/?size=100&id=13071&format=png&color=000000" alt="Social Media" className="nav-icon" />
+            <div className="nav-icon-wrapper">
+              <img
+                src="https://img.icons8.com/?size=100&id=13071&format=png&color=000000"
+                alt="Social Media"
+                className="nav-icon"
+              />
+              <span className="tooltip-text">Social Media</span>
+            </div>
           </Link>
         </li>
         <li className="nav-link">
           <Link to="/map">
-            <img src="https://img.icons8.com/?size=100&id=42925&format=png&color=000000" alt="Map" className="nav-icon" />
+            <div className="nav-icon-wrapper">
+              <img
+                src="https://img.icons8.com/?size=100&id=42925&format=png&color=000000"
+                alt="Map"
+                className="nav-icon"
+              />
+              <span className="tooltip-text">Map</span>
+            </div>
           </Link>
         </li>
         <li className="nav-link">
           <Link to="/home/notification">
-            <img src="https://img.icons8.com/?size=100&id=9RaQIJXn5XR9&format=png&color=000000" alt="Notification" className="nav-icon" />
+            <div className="nav-icon-wrapper">
+              <img
+                src="https://img.icons8.com/?size=100&id=9RaQIJXn5XR9&format=png&color=000000"
+                alt="Notification"
+                className="nav-icon"
+              />
+              <span className="tooltip-text">Notification</span>
+            </div>
+          </Link>
+        </li>
+        <li className="nav-link">
+          <Link to="/login">
+            <div className="nav-icon-wrapper">
+              <img
+                src="https://cdn-icons-png.flaticon.com/128/6997/6997662.png"
+                alt="Login"
+                className="nav-icon"
+              />
+              <span className="tooltip-text">Login</span>
+            </div>
           </Link>
         </li>
       </div>

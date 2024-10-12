@@ -1,7 +1,7 @@
 .sidebarofSocials {
-  width: 300px;
+  width: 400px;
   /* Set width */
-  height: calc(100vh - 70px);
+  height: calc(100vh - 120px);
   /* Full viewport height minus the navbar height */
   position: relative;
   /* Use relative positioning */
@@ -9,7 +9,7 @@
   /* Enables vertical scrolling */
   font-size: 18px;
   /* Set font size */
-  border-right: 1px solid #000;
+  border-right: 3px solid #afaeae;
   /* Right border for separation */
   margin-top: 5px;
   /* Optional top margin */
@@ -18,12 +18,18 @@
 }
 
 .sidebar-link {
-  padding: 12px;
+  padding: 16px;
   /* Padding for each sidebar link */
   border-radius: 5px;
   /* Rounded corners */
   transition: background-color 0.3s ease, color 0.3s ease;
   /* Transition for hover effects */
+  font-size: 1.3rem;
+}
+
+.sidebar-link img {
+  margin-right: 40px !important;
+  margin-left: 10px !important;
 }
 
 .sidebar-link:hover {
